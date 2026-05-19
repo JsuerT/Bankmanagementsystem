@@ -1,0 +1,12 @@
+aufrufen 
+
+eintrag hinzufügen 
+  dem akteullen monat oder einen adneren monat 
+
+alle einträge einseehen 
+  dem akteullen monat oder einem anderen monat 
+
+für jeden monat wir ein neues txt file gemacht? neuer abschnitt im txt file 
+es soll automatisch gemessen werden wenn ein neuer monat kommmt
+
+wenn man einen eintrag macht 
