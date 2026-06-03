@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import Service.Service;
 
 public class Start{
 
@@ -7,9 +8,8 @@ public class Start{
 
     System.out.print("BANKMANAGEMENTSYSTEM \n\nWhat do you want to do \n");
 
-    boolean validNumber = false;
 
-    do{
+    while(true){
       System.out.print("1) Add a new entry \n2) View an existing entry \n3) Close application");
       System.out.println();
 
@@ -17,20 +17,18 @@ public class Start{
       switch(selection){
         case 1:
           System.out.println("Add a new entry");
-          validNumber = true; 
           break;
         case 2:
-          System.out.println("View an existing entry");
-          validNumber = true; 
+          System.out.println("View current balance");
+          viewBalance();
           break;
         case 3:
           System.out.println("BYE");
-          validNumber = true; 
+          System.exit(0);
           break;
         default:
-          System.out.println("Please enter a valid number");
-          System.exit(0);
+          System.out.println("Please enter a valid number \n");
       }
-    }while(!validNumber);
+    }
   }
 }
